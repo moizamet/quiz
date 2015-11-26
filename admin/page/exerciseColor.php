@@ -9,12 +9,17 @@ class page_exerciseColor extends Page
 		$this->add('P')->set('Select color');
 		$form=$this->add('Form');
 
-		$form->addField("Dropdown","select_color")->setValueList(['red'=>'Strawberry', 'green'=>'Lime', 'blue'=>'Sky']);
+		$form->addField("Dropdown","select_color")->setValueList(['red'=>'Strawberry', 'green'=>'Grass', 'blue'=>'Sky', 'yellow'=>'Banana']);
     $form->addSubmit("Submit");
-    $this->add('Button')->set("Not Now");
+    $but=$this->add('Button')->set("Not Now");
+    $but->onClick(function($but){
+    	return $this->js()->univ()->alert("you are leaving this page");
+    });
+
     $form->onSubmit(function($form){
 
-    	return $this->app->js()->redirect(null,['color'=>$form["select_color"]]);
+    	//return $this->app->js()->redirect(null,['color'=>$form["select_color"]]);
+    	return $this->api->redirect("excercisecolor2",['color'=>$form["select_color"]]);
     });
 
 	if($_GET['color']){
