@@ -14,5 +14,9 @@ class page_foorms extends Page
 		$adds->addButton('Varify','before');
 		$adds->addButton('Varify','after');
 		$form->addField('DropDown','Country')->setValueList(['India','USA','UK']);
+
+
+
+		$this->add('P')->set($this->app->recall('Name'));
 	}
 }

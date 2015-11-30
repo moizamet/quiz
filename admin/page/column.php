@@ -25,5 +25,9 @@ class page_column extends Page
 		$f->add('View_Error')->set('Moiz');
 		
 
+		$this->app->memorize('Name','Moiz');
+
+		$this->add('Button')->set('Next page')->addClass('atk-swatch-red')->link('foorms');
+
 	}
 }
