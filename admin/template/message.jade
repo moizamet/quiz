@@ -1,0 +1,33 @@
+div
+	.atk-row
+		.atk-col-6.atk-size-reset
+			&nbsp;
+			{you}
+			.atk-push.atk-box.atk-swatch-ink
+				.atk-row
+					.atk-col-12.atk-size-kilo
+						b{$sender_name}
+						&nbsp;:&nbsp;{$message}
+					//- .atk-col-9
+
+				.atk-row(style="float:right")
+					{$time}&nbsp;&nbsp;{$date}
+			{/you}
+		.atk-col-6.atk-size-reset
+			&nbsp;
+			{other}
+			.atk-push.atk-box.atk-swatch-blue
+				.atk-row(style="float:right")
+					.atk-col-12.atk-size-kilo
+						{$message}
+						b&nbsp;:&nbsp;You
+					//- .atk-col-9
+
+				.atk-row
+					{$time}&nbsp;&nbsp;{$date}
+			{/other}
+		//- .atk-col-10
+			
+		//- .atk-col-2
+		//- 	{$removebtn}
+//- (style="height:70px;border:5px double grey")

@@ -15,6 +15,7 @@ class Frontend extends ApiFrontend {
         $this->addAddonsLocations();
         $this->add('jUI');
         $this->initAddons();
+        $this->dbconnect();
     }
 
     function addLocations() {

@@ -1,6 +1,7 @@
 <?php
 $config['url_prefix']='?page=';
 $config['url_postfix']='';
+$config['dsn']='mysql://root:winserver@localhost/Twitter';
 
 $config['js']['versions']['jqueryui']='1.11.master';
 

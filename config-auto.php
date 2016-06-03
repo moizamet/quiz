@@ -1,6 +1,6 @@
 <?php
 $config['seed'] = '5654645c5fc66'; 
 $config['title'] = 'Moiz_First-atk'; 
-$config['name'] = 'Moiz_First-atk'; 
-$config['certificate'] = 'EORVHCr5ckrYRKMbAETxXbtjs/BmS52uJEphk1ePrX94TVlDxKJL2rciszoZE+016QgFNRVdZaZWzBxMnrTpeYPwykNoe9xA7TXtqPoHJMILzgnAv0qn8340/LnqMf3qmUtYVfZZRc3G22gol191SXcA+MCsj6OOD5iNzQQ6REK+aK85XTbfDdyqbTSuQHVJNwug4pvNFHeFAVxTDV5aZS6ZXsr3ChfD9WcSexBsnZEy3uEGH3JNPbEF64uKZDSD+d2QiJiEz+KdD3REeTilC/tNQ9mkStVRoFpyakXztcr91OfvufFVCNYumG/i2SyOMrkFEL84f11//ifw73wAFg==:eyJjZXJ0X2V4cGlyZXNfZHRzIjoxNDQ4NjM1NzExLCJjZXJ0X2lzc3VlZF9kdHMiOjE0NDg2MjEzMTEsInBsYW4iOm51bGwsInVpaWQiOiI3ZDZkZjIzMjgxYjIzZjg4NmNlYzVhYzMwOTM4NzkyOTA1Y2I2NzgwIiwidmVyc2lvbiI6IjIifQ=='; 
-$config['installation_hash'] = '7d6df23281b23f886cec5ac30938792905cb6780'; 
+$config['name'] = 'Moiz_atk-twitter'; 
+$config['certificate'] = 'agTitK+6aMiOAPRd6llqTwXTsmMiAK48GyRXEEAVR0+6pZZrgv5YD64Vri7GCDJDVH4RcCL83HyeWbmjZZBfy9iB++rjWoDR3sEfbACiqEjWzLR3RbVTUKbejiA6TFgZzlHB7ysvaGITK9tzp6loYGcxeCSWjf/rfipfwmXTtjo+JEIbmLdkbV3e0EcJzC28kfKvkr+GTm2UC6SQc8Z8K0ZeXyInt9jktCJzxS9/ULwUQDyiExS+hg7W0E2CU+ll895Ckn3/RL8NI+wW1H1QbXEQHShuPzh/KNiKRd0I0juhjJESwhNLHURCCJoM4O0oi9vSKCdcJXSwY1bStN9sUw==:eyJjZXJ0X2V4cGlyZXNfZHRzIjoxNDU4NjU2OTQ1LCJjZXJ0X2lzc3VlZF9kdHMiOjE0NTg2NDI1NDUsInBsYW4iOm51bGwsInVpaWQiOiJlNDQ0Y2RjYjllZjMyM2Y4YmQyM2QzZDk2YTAzYWIwYjFjOTQ3Y2ZhIiwidmVyc2lvbiI6IjIifQ=='; 
+$config['installation_hash'] = 'e444cdcb9ef323f8bd23d3d96a03ab0b1c947cfa'; 

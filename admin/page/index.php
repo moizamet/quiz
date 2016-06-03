@@ -2,11 +2,19 @@
 
 class page_index extends Page
 {
-	public $title="use of get";
+	public $title="Moiz Amet";
 	function init()
 	{
 		parent::init();
-		$this->add('Button');
-		$this->add('P')->set('hello'.$_GET['$text']);
+		$form=$this->add('Form');
+		$form->addField('Line','ull','Enter Page name')->validateNotNull();
+		$form->addSubmit('Search')->addClass('atk-size-mega atk-swatch-blue ');
+		$form->onSubmit(function($form){
+			return $this->js()->redirect($this->app->url($form['ull']));
+		});
+	
+		// $this->add('Button');
+		// $this->add('P')->set('hello'.$_GET['$text']);
 	}
 }
+

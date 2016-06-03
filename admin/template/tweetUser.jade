@@ -1,0 +1,41 @@
+.atk-box.atk-swatch-blue
+	.atk-row
+		.atk-col-3
+			//- img(src="{$image}" style="width:200px;height:200px;border-radius:100%")
+			img(src="{$image}" style="width:200px;height:200px;border-radius:100%").img-class
+
+		.atk-col-9
+			.atk-row
+				.atk-col-8
+					.atk-size-tera.atk-push {$name}
+				.atk-col-4 {$username}
+			.atk-row.atk-size-kilo
+				.atk-col-4 Gender
+				.atk-col-4 {$gender}
+				.atk-push
+			.atk-row.atk-size-kilo.atk-push
+				.atk-col-4 Date of Birth
+				.atk-col-6 {$date}
+				
+			.atk-row
+				.atk-col-8
+					&nbsp;
+				.atk-col-4
+					{$trend}
+					{$message}
+					
+					
+
+	.atk-row
+		.atk-col-3 
+			|you are Following : 
+			.atk-size-tera{$Followers}{$following}
+		.atk-col-3 
+			|you are Followed By : 
+			.atk-size-tera{$Followings}{$followers}
+		.atk-col-3 
+			|Number of Tweets : 
+			.atk-size-tera{$tW}
+		
+
+

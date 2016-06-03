@@ -1,0 +1,62 @@
+.atk-push(id="{$_name}")
+	div.atk-push
+		div(style="float:left;").atk-col-8
+			.atk-box(style="margin-left:10px;border:solid gray 3px").atk-push
+				//- #0095ff	
+				.atk-row
+					.atk-col-2
+						img(src="/admin/public/upload/{$image}" alt="" style="height:80px;width:80px;border-radius:40%")
+					.atk-col-6
+						.atk-size-giga
+							a(href="{$url}"){$user}
+						p.atk-text-dimmed {$username}
+					.atk-col-4 {$date}&nbsp;&nbsp;&nbsp;{$editbtn}{$menuhorizontal}
+
+				hr
+				.atk-row
+					.atk-col-12.atk-swatch-grey
+						.atk-allign-center 
+							{$message}
+							//- {tweetimage}
+							//- {imgcheck}
+						.atk-push
+
+							img(src="{$tweetimage}" alt=" " style="height:60%;width:60%")
+							//- {/imgcheck}
+							
+				.atk-push
+				.atk-row.atk-swatch-ink			
+					.atk-col-3
+						{$followbtn}
+					.atk-col-3
+						{$likebtn}
+					.atk-col-3
+						{$sharebtn}
+					.atk-col-3
+						{$commentbtn}
+					.atk-col-3
+						{$removebtn}
+				.atk-row.atk-swatch-blue
+					.atk-col-3
+						div(style="padding-left:20px;width:50px;")
+							{$Followers_check}
+					.atk-col-3
+						div(style="padding-left:20px;width:50px;")
+							{$likeCount}
+					.atk-col-3
+						div(style="padding-left:20px;width:50px;")
+							{$share}
+					.atk-col-3
+						div(style="padding-left:20px;width:50px;")
+							{$comment}
+
+				.atk-row		
+					
+						//- {$remove}
+						//- {$view}
+						{$Content}
+						
+
+		//- {/}{/}
+					
+

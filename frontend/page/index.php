@@ -13,6 +13,8 @@ class page_index extends Page
         $this->add('Button')
             ->set(array('Agile Toolkit Book', 'icon'=>'book', 'swatch'=>'green'))
             ->link('http://book.agiletoolkit.org/app/frontend.html');
+
+            $this->add('Button')->set('Moiz Amet');
     }
 }
 

@@ -1,0 +1,52 @@
+
+<div id="{$_name}" class="atk-push">
+  <div class="atk-push">
+    <div style="float:left;" class="atk-col-8">
+      <div style="margin-left:10px;border:solid gray 3px" class="atk-box atk-push">
+        <div class="atk-row">
+          <div class="atk-col-2"><img src="/admin/public/upload/{$image}" alt="" style="height:80px;width:80px;border-radius:40%"/></div>
+          <div class="atk-col-6">
+            <div class="atk-size-giga"><a href="{$url}">{$user}</a></div>
+            <p class="atk-text-dimmed">{$username}</p>
+          </div>
+          <div class="atk-col-4">{$date}&nbsp;&nbsp;&nbsp;{$editbtn}{$menuhorizontal}</div>
+        </div>
+        <hr/>
+        <div class="atk-row">
+          <div class="atk-col-12 atk-swatch-grey">
+            <div class="atk-allign-center">
+               
+              {$message}
+            </div>
+            <div class="atk-push"><img src="{$tweetimage}" alt=" " style="height:60%;width:60%"/>
+            </div>
+          </div>
+        </div>
+        <div class="atk-push"></div>
+        <div class="atk-row atk-swatch-ink">			
+          <div class="atk-col-3">{$followbtn}</div>
+          <div class="atk-col-3">{$likebtn}</div>
+          <div class="atk-col-3">{$sharebtn}</div>
+          <div class="atk-col-3">{$commentbtn}</div>
+          <div class="atk-col-3">{$removebtn}</div>
+        </div>
+        <div class="atk-row atk-swatch-blue">
+          <div class="atk-col-3">
+            <div style="padding-left:20px;width:50px;">{$Followers_check}</div>
+          </div>
+          <div class="atk-col-3">
+            <div style="padding-left:20px;width:50px;">{$likeCount}</div>
+          </div>
+          <div class="atk-col-3">
+            <div style="padding-left:20px;width:50px;">{$share}</div>
+          </div>
+          <div class="atk-col-3">
+            <div style="padding-left:20px;width:50px;">{$comment}</div>
+          </div>
+        </div>
+        <div class="atk-row">		{$Content}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

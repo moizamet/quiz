@@ -136,6 +136,7 @@ class Lister extends View
             if (isset($this->current_row_html[$key])) {
                 continue;
             }
+            
             $template->trySet($key, $val);
         }
         $template->setHTML($this->current_row_html);
