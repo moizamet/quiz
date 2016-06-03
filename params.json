@@ -1,6 +1,6 @@
 {
-  "name": "Quiz",
+  "name": "Moiz Amet",
   "tagline": "quiz project using agiletoolkit",
-  "body": "Welcome ,\r\nMoiz Amet Project \r\n\r\nusing Agile toolkit , a php framework for developing web applications\r\n\r\nThanks for visiting\r\n\r\nthis is a test project",
+  "body": "Welcome ,\r\nMoiz Amet Project \r\n\r\nusing Agile toolkit , a php framework for developing web applications\r\n\r\nidea:\r\nbasically it is design for dynamic quiz web application that lets you add different categories of tests and there Multiple choice questions. you can add and mark the questions according to your needs !!",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
