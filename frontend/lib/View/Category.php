@@ -6,7 +6,7 @@ class View_Category extends View
 	function init()
 	{
 		parent::init();
-		// $this->model->tryLoadAny();
+		
 	}
 
 	function setModel($m)
