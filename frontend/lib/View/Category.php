@@ -2,14 +2,7 @@
 
 class View_Category extends View
 {
-	// function formatRow()
-	// {
-	// 	parent::formatRow();
-
-	// 	$this->current['caturl']=$this->app->url('questions',['cid'=>$this->model->id]);
-
-	// }
-
+	
 	function init()
 	{
 		parent::init();
